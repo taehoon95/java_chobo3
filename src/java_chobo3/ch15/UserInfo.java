@@ -1,6 +1,13 @@
 package java_chobo3.ch15;
 
-public class UserInfo {
+import java.io.Serializable;
+
+public class UserInfo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3964745391076250283L;
+	
 	private String name;
 	private String password;
 	private int age;

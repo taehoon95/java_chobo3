@@ -8,14 +8,9 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class SerializableEx implements Serializable{
+public class SerializableEx {
 
-	
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 3234532603439158425L;
 
 	public static void main(String[] args) {
 		String fileName = "UserInfo.ser";
