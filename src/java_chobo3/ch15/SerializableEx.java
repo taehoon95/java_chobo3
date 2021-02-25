@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class SerializableEx {
 
 
-
 	public static void main(String[] args) {
 		String fileName = "UserInfo.ser";
 		
